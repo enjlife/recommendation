@@ -59,8 +59,8 @@ class Itemcf(object):
 
     # 基于内容的推荐
     def recommend_content(self):
-        docu = os.getcwd()
-        model = word2vec.Word2Vec.load(docu+'/announce.model')
+        # docu = os.getcwd()
+        model = word2vec.Word2Vec.load('./announce.model')
         self.trainSet = self.get_dataset2()
         result = {}
         for oneitem in self.testitem:
