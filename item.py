@@ -1,9 +1,15 @@
 # coding = utf-8
-
 # 基于项目的协同过滤推荐算法实现
 import random
 import math
 from operator import itemgetter
+
+
+
+"""
+协同过滤的代码参考
+"""
+
 
 
 class ItemBasedCF():
