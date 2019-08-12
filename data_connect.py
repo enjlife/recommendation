@@ -9,10 +9,7 @@ import string
 import logging
 
 
-host1 = '172.16.22.105'
-host2 = '172.16.16.97'  # 服务器的库
-host3 = '172.16.13.178'
-host4 = 'localhost'
+
 sql_select1 = "select * from companys "
 
 title = "中文".encode("utf8")
